@@ -14,8 +14,10 @@ docker build -t hbase-hacid .
 docker run --name=hbase-docker -P -it -h hbase-docker -d -v "$input_path/input":/input -v "$output_path/output":/output hbase-hacid
 
 #### Tool commands
-F -> veces que se va a repetir una linea en la inserccion de datos
-C -> Veces que se va a repetir la columna en la tabla
+F -> times a line will be repeated in the data insertion
+
+C -> Times the column is going to be repeated in the table
+
 
 - hacid upload F C
 Creamos una tabla con los datos insertados. Por cada linea del fichero se repite F veces, y por cada medida del sensor, se añaden C columnas
