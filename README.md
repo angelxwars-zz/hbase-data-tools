@@ -20,7 +20,9 @@ C -> Times the column is going to be repeated in the table
 
 
 - hacid upload F C
-Creamos una tabla con los datos insertados. Por cada linea del fichero se repite F veces, y por cada medida del sensor, se añaden C columnas
+
+We create a table with the inserted data. For each line of the file, F times are repeated, and for each sensor measurement, C columns are added
 
 - hacid extraxt F C
-Extraemos todos los datos de repeticion de fila F y la columnas C, procesandolo con un MapReduce
+
+We extract all the repetition data from row F and column C, processing it with a MapReduce
